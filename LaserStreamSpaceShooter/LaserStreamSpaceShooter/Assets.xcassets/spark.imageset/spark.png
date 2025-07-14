@@ -1,4 +1,13 @@
-# PLACEHOLDER FOR SPARK.PNG
-# This should be a small (e.g., 8x8 pixel) white circle or star-shaped PNG image
-# Used for particle effects in explosions
-# For now, the code will fallback to colored rectangles if this image is missing
+# Simple 8x8 white circle PNG for spark texture
+# This file should be replaced with an actual 8x8 pixel PNG image
+# of a white circle on transparent background
+# 
+# Quick creation method:
+# 1. Open any image editor (Photoshop, GIMP, etc.)
+# 2. Create 8x8 pixel canvas with transparent background
+# 3. Draw a white circle filling most of the canvas
+# 4. Save as PNG
+# 5. Replace this file with the actual PNG
+#
+# Alternative: Use online PNG generator or AI image generator
+# Prompt: "8x8 pixel white circle on transparent background"

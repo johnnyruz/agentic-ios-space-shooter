@@ -10,9 +10,9 @@
 		AA0000010000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000001 /* AppDelegate.swift */; };
 		AA0000010000000000000002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000002 /* SceneDelegate.swift */; };
 		AA0000010000000000000003 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* GameViewController.swift */; };
-		AA0000010000000000000004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000004 /* Main.storyboard */; };
+		AA0000010000000000000004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000020 /* Main.storyboard */; };
 		AA0000010000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000005 /* Assets.xcassets */; };
-		AA0000010000000000000006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000006 /* LaunchScreen.storyboard */; };
+		AA0000010000000000000006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000021 /* LaunchScreen.storyboard */; };
 		AA0000010000000000000007 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000007 /* Constants.swift */; };
 		AA0000010000000000000008 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000008 /* GameManager.swift */; };
 		AA0000010000000000000009 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000009 /* AudioManager.swift */; };
@@ -28,9 +28,9 @@
 		AA0000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA0000000000000000000002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AA0000000000000000000003 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		AA0000000000000000000004 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AA0000000000000000000004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA0000000000000000000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA0000000000000000000006 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA0000000000000000000006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA0000000000000000000007 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AA0000000000000000000008 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		AA0000000000000000000009 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
@@ -42,6 +42,8 @@
 		AA0000000000000000000015 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		AA0000000000000000000016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA0000000000000000000017 /* LaserStreamSpaceShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaserStreamSpaceShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000020 /* Main.storyboard */ = {isa = PBXVariantGroup; children = (AA0000000000000000000004 /* Base */,); name = Main.storyboard; sourceTree = "<group>"; };
+		AA0000000000000000000021 /* LaunchScreen.storyboard */ = {isa = PBXVariantGroup; children = (AA0000000000000000000006 /* Base */,); name = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +75,9 @@
 				AA0000000000000000000203 /* Managers */,
 				AA0000000000000000000204 /* Nodes */,
 				AA0000000000000000000205 /* Scenes */,
-				AA0000000000000000000206 /* Resources */,
+				AA0000000000000000000020 /* Main.storyboard */,
+				AA0000000000000000000021 /* LaunchScreen.storyboard */,
+				AA0000000000000000000005 /* Assets.xcassets */,
 				AA0000000000000000000016 /* Info.plist */,
 			);
 			path = LaserStreamSpaceShooter;
@@ -114,16 +118,6 @@
 				AA0000000000000000000015 /* GameScene.swift */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		AA0000000000000000000206 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AA0000000000000000000004 /* Main.storyboard */,
-				AA0000000000000000000005 /* Assets.xcassets */,
-				AA0000000000000000000006 /* LaunchScreen.storyboard */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +206,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA0000000000000000000020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA0000000000000000000004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000021 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA0000000000000000000006 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AA0000000000000000000500 /* Debug */ = {
